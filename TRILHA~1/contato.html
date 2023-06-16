@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="/styleContatos.css">
+    <title>Medical Center - Contato </title>
+    
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/sobre.html">Sobre</a></li>
+                <li><a href="/horaAtendimento.html">Hora de Atendimento</a></li>
+                <li><a href="/contato.html">Contato</a></li>
+                <li><a href="/contato.html">Mapa</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <div class="logo">
+                    <img src="/logoMedCenter.png" alt="" srcset="" title="logoMedCenter">
+                </div>
+                <span>Medical Center</span>
+            </div>
+    
+            <div class="cont-content">
+                <div class="content">
+                    <div class="ban-sobre">
+                        <h3>Contato</h3>
+                    </div>
+                    
+                    <div class="cont-cadastro">
+                        <div class="form-cadastro" id="bloclo_1">
+                            <h4>Dados Pessoais</h4><br>
+                            <form name="signup" action="#" method="post" onsubmit="alert('Cadastro Enviado');" autocomplete="on">
+                                <fieldset>
+                                    <legend style="margin-left: 7px;">Dados Cadastro</legend> <br>
+                                    <div class="row">
+                                        <label for="">Nome: </label><input type="text" name="" id="" placeholder="Nome" autofocus>
+                                        <label for="">E-mail: </label><input type="email" name="" id="" placeholder="Email" autofocus>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset>
+                                    <legend style="margin-left: 7px;">Mensagem</legend> <br>
+                                    <div class="row">
+                                        <label for="">Assunto: </label><input type="text" name="" id="" placeholder="Infome o assunto" maxlength="50"><br><br>
+                                        <textarea name="" id="" cols="30" rows="10" maxlength="500" placeholder="Max:300 cht"></textarea>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset>
+                                    <legend style="margin-left: 7px;">Limpar e Enviar </legend> <br>
+                                    <div class="row">
+                                        <button type="reset">Limpar</button>
+                                        <button type="submit">Enviar Formulário</button>
+                                    </div>
+                                </fieldset>
+                                
+                            </form>    
+                        </div>
+                    </div>
+
+                    <hr><br>
+
+                    <div class="mapGoogle">
+                        <div class="local">
+                            <h4 style="text-align: center; margin-top: 10px; font-size: 1.3rem; color: #fff;">Localização</h4><br>
+                            <span id="locate">
+                                <p><strong>Medical Center</strong></p>
+                                <p>Endere&ccedil;o:<br /><em>33 Farlane Street</em><br /><em>Keilor East</em><br /><em>VIC 3033, Australia</em></p>
+                                <p>Contatos:<br /><em>+123 655 655</em><br /><em>+123 755 755</em></p>
+                                <p>Email:<br />medicalcenter@gmail.com</p>
+                            </span>
+                        </div>
+                        <div class="map" id="mapa">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.9207745539297!2d144.86396787518305!3d-37.74500283011013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65e993ce58469%3A0xd9fd6e7540ed532!2sMcFarlane%20St%2C%20Keilor%20East%20VIC%203033%2C%20Austr%C3%A1lia!5e0!3m2!1spt-BR!2sbr!4v1686949303887!5m2!1spt-BR!2sbr" 
+                            width="525" height="380" 
+                            style="border:0;" 
+                            allowfullscreen="" loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+    
+            
+            
+            <div class="footer">
+                <div class="footerTitle">
+                    <div class="widget_title_text">Medical Center</div>
+                    <div class="widget_title_bar"></div>
+                </div>
+
+                <div class="footerBody">
+                    <span class="nameClinic">Medical Center</span>
+
+                    <div class="contacts">
+                        <span class="endereco">
+                            33 Farlane Street<br>
+                            Keilor East<br>
+                            VIC 3033, Australia<br>
+                        </span> <br>
+                        <span class="contactsTel">
+                            +123 655 655<br>
+                            +123 755 755<br>
+                            <span class="emailMedi">
+                                <a href="#">medicalcenter@gmail.com</a>
+                            </span>
+                        </span>
+                    </div>
+
+                    <div class="redeSocial">
+                        <a href="">
+                            <!--face -->
+                            <div class="ico_1"><img src="/icoFace.png" alt="facebook" title="facebook">
+                            </div>
+                        </a>
+                        <a href="">
+                            <!--twitter -->
+                            <div class="ico_2"><img src="/icoTwitter.png" alt="twitter" title="twitter"></div>
+                        </a>
+                        <a href="">
+                            <!--emailMais -->
+                            <div class="ico_3"><img src="/icoInfor.png" alt="informação" title="informação"></div>
+                        </a>
+                        <a href="">
+                            <!--email -->
+                            <div class="ico_4"><img src="/icoEmail.png" alt="email" title="email">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
